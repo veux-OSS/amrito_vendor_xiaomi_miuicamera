@@ -5,9 +5,6 @@
 //
 
 soong_namespace {
-    imports: [
-        "vendor/xiaomi/miuicamera",
-    ],
 }
 
 cc_prebuilt_library_shared {

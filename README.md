@@ -1,12 +1,11 @@
 # MiuiCamera-veux
 
-1. Clone the main MiuiCamera repository to `vendor/xiaomi/miuicamera`
-2. Clone this repository to `vendor/xiaomi/miuicamera-veux`
-3. Add the line below to `device.mk`
+1. Clone this repository to `vendor/xiaomi/miuicamera-veux`
+2. Add the line below to `device.mk`
     ```makefile
     $(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
     ```
-4. Include SELinux policy in `BoardConfig.mk`
+3. Include SELinux policy in `BoardConfig.mk`
     ```makefile
     include vendor/xiaomi/miuicamera-veux/SEPolicy-veux.mk
     ```

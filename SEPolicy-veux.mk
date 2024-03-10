@@ -4,5 +4,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include vendor/xiaomi/miuicamera/SEPolicy.mk
+include vendor/xiaomi/miuicamera-veux/common/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += vendor/xiaomi/miuicamera-veux/sepolicy/vendor
