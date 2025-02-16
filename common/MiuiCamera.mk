@@ -11,14 +11,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     MiuiCamera
 
-ifeq ($(TARGET_CAMERA_EXTRAPHOTO),true)
-PRODUCT_PACKAGES += \
-    MiuiExtraPhoto
-
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    MiuiExtraPhoto
-endif
-
 # Properties
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera \

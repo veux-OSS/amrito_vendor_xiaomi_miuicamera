@@ -36,14 +36,6 @@ android_app_import {
     ],
 }
 
-android_app_import {
-    name: "MiuiExtraPhoto",
-    apk: "prebuilt/MiuiExtraPhoto.apk",
-    certificate: "media",
-    system_ext_specific: true,
-    uses_libs: ["org.apache.http.legacy"],
-}
-
 cc_library {
     name: "libgui_shim_miuicamera",
     srcs: ["shims/libgui_shim_miuicamera.c"],
